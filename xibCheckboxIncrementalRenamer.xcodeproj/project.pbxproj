@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D93EF9DD1E8BA608002F584F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D93EF9DC1E8BA608002F584F /* AppDelegate.m */; };
+		D93EF9E01E8BA608002F584F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D93EF9DF1E8BA608002F584F /* main.m */; };
+		D93EF9E21E8BA608002F584F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D93EF9E11E8BA608002F584F /* Assets.xcassets */; };
+		D93EF9E51E8BA608002F584F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D93EF9E31E8BA608002F584F /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D93EF9D81E8BA608002F584F /* xibCheckboxIncrementalRenamer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xibCheckboxIncrementalRenamer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D93EF9DB1E8BA608002F584F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D93EF9DC1E8BA608002F584F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D93EF9DF1E8BA608002F584F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D93EF9E11E8BA608002F584F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D93EF9E41E8BA608002F584F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D93EF9E61E8BA608002F584F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D93EF9D51E8BA608002F584F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D93EF9CF1E8BA608002F584F = {
+			isa = PBXGroup;
+			children = (
+				D93EF9DA1E8BA608002F584F /* xibCheckboxIncrementalRenamer */,
+				D93EF9D91E8BA608002F584F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D93EF9D91E8BA608002F584F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D93EF9D81E8BA608002F584F /* xibCheckboxIncrementalRenamer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D93EF9DA1E8BA608002F584F /* xibCheckboxIncrementalRenamer */ = {
+			isa = PBXGroup;
+			children = (
+				D93EF9DB1E8BA608002F584F /* AppDelegate.h */,
+				D93EF9DC1E8BA608002F584F /* AppDelegate.m */,
+				D93EF9E11E8BA608002F584F /* Assets.xcassets */,
+				D93EF9E31E8BA608002F584F /* MainMenu.xib */,
+				D93EF9E61E8BA608002F584F /* Info.plist */,
+				D93EF9DE1E8BA608002F584F /* Supporting Files */,
+			);
+			path = xibCheckboxIncrementalRenamer;
+			sourceTree = "<group>";
+		};
+		D93EF9DE1E8BA608002F584F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D93EF9DF1E8BA608002F584F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D93EF9D71E8BA608002F584F /* xibCheckboxIncrementalRenamer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D93EF9E91E8BA608002F584F /* Build configuration list for PBXNativeTarget "xibCheckboxIncrementalRenamer" */;
+			buildPhases = (
+				D93EF9D41E8BA608002F584F /* Sources */,
+				D93EF9D51E8BA608002F584F /* Frameworks */,
+				D93EF9D61E8BA608002F584F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xibCheckboxIncrementalRenamer;
+			productName = xibCheckboxIncrementalRenamer;
+			productReference = D93EF9D81E8BA608002F584F /* xibCheckboxIncrementalRenamer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D93EF9D01E8BA608002F584F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = mk;
+				TargetAttributes = {
+					D93EF9D71E8BA608002F584F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 24PW9K5VQ4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D93EF9D31E8BA608002F584F /* Build configuration list for PBXProject "xibCheckboxIncrementalRenamer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D93EF9CF1E8BA608002F584F;
+			productRefGroup = D93EF9D91E8BA608002F584F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D93EF9D71E8BA608002F584F /* xibCheckboxIncrementalRenamer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D93EF9D61E8BA608002F584F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D93EF9E21E8BA608002F584F /* Assets.xcassets in Resources */,
+				D93EF9E51E8BA608002F584F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D93EF9D41E8BA608002F584F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D93EF9E01E8BA608002F584F /* main.m in Sources */,
+				D93EF9DD1E8BA608002F584F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D93EF9E31E8BA608002F584F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D93EF9E41E8BA608002F584F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D93EF9E71E8BA608002F584F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D93EF9E81E8BA608002F584F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D93EF9EA1E8BA608002F584F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 24PW9K5VQ4;
+				INFOPLIST_FILE = xibCheckboxIncrementalRenamer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mk.xibCheckboxIncrementalRenamer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D93EF9EB1E8BA608002F584F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 24PW9K5VQ4;
+				INFOPLIST_FILE = xibCheckboxIncrementalRenamer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mk.xibCheckboxIncrementalRenamer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D93EF9D31E8BA608002F584F /* Build configuration list for PBXProject "xibCheckboxIncrementalRenamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D93EF9E71E8BA608002F584F /* Debug */,
+				D93EF9E81E8BA608002F584F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D93EF9E91E8BA608002F584F /* Build configuration list for PBXNativeTarget "xibCheckboxIncrementalRenamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D93EF9EA1E8BA608002F584F /* Debug */,
+				D93EF9EB1E8BA608002F584F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D93EF9D01E8BA608002F584F /* Project object */;
+}
